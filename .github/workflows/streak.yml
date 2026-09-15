@@ -1,0 +1,43 @@
+name: Update profile streak
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+  push:
+    paths:
+      - ".github/workflows/streak.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-streak
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create image directory
+        run: mkdir -p assets
+
+      - name: Generate streak card
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: assets/streak.svg
+          options: "user=usm4n-codes&card_width=480&background=161B22&border=303B49&stroke=303B49&ring=8FAEC9&fire=8FAEC9&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=8FAEC9&sideLabels=9BAABD&dates=9BAABD&border_radius=8&disable_animations=true"
+
+      - name: Save updated image
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/streak.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Update profile streak"
+          git push
