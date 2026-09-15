@@ -1,110 +1,46 @@
-<div align="center">
-
-<sub>CODE   /   DESIGN   /   CLOUD</sub>
-
-Usman
-
-Learning how ideas become working software.
-
-Student developer with experience in Python, C++, web development, and UI design.<br>
-Currently learning Kotlin and Android development, with an interest in cloud and AI applications.
-
-<p>
-  <a href="https://github.com/usm4n-codes?tab=repositories">Explore my repositories</a>
-  &nbsp; &middot; &nbsp;
-  <a href="#selected-work">Selected work</a>
-  &nbsp; &middot; &nbsp;
-  <a href="#experience">Experience</a>
+<p align="center">
+  <img src="assets/hero.png" width="100%" alt="Usman — Code. Design. Cloud. Currently learning Kotlin and Android." />
 </p>
 
-<code>Python & C++</code>   <code>Figma & Web</code>   <code>Cloud Fundamentals</code>
+<p align="center">
+  <b>Student developer exploring software, interfaces, and cloud applications.</b><br>
+  My work spans C++, Python, Flask, WordPress, and Figma, with practical cloud and AI exposure through an internship.
+</p>
 
-</div>
+<p align="center">
+  <a href="https://github.com/usm4n-codes?tab=repositories"><b>Explore repositories ↗</b></a>
+</p>
 
-About me
+<br>
 
-My learning has taken me from programming in C++ and Python to building with Flask, creating Figma designs, and exploring how applications run in the cloud. I have also built a WordPress website through guided practice.
+<img src="assets/work-heading.png" width="100%" alt="01 — Selected work" />
 
-I enjoy connecting the different parts of a project: the interface people use, the code behind it, and the services that keep it running. This profile brings together my coursework, practical projects, and current learning.
+<table>
+  <tr>
+    <td width="50%"><a href="https://github.com/usm4n-codes/Flask-Journey"><img src="assets/flask.png" width="100%" alt="Flask Journey: Python web development through routes and local application practice. View repository." /></a></td>
+    <td width="50%"><a href="https://github.com/usm4n-codes/COAL-Project-SMS"><img src="assets/assembly.png" width="100%" alt="Student Information System: NASM assembly coursework exploring student records and program flow. View repository." /></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="assets/wordpress.png" width="100%" alt="WordPress website: a tutorial-guided build exploring pages, content, and site appearance." /></td>
+    <td width="50%"><img src="assets/figma.png" width="100%" alt="Interface design: Figma work exploring layouts, visual hierarchy, and prototypes." /></td>
+  </tr>
+</table>
 
-Selected work
+<sub>Project card graphics are illustrative; they are not screenshots of the projects.</sub>
 
-Project
+<br><br>
 
-What I explored
+<img src="assets/stack-heading.png" width="100%" alt="02 — Technical toolkit" />
+<img src="assets/toolkit.png" width="100%" alt="Programming: C++, Python. Web: HTML, CSS, Flask, WordPress. Database familiarity: SQL, MySQL, MongoDB. Design: Figma. Tools: Git, GitHub, VS Code, Android Studio. Cloud fundamentals: AWS, Azure, GCP. Docker knowledge and basic Kubernetes familiarity. Currently learning Kotlin and Android." />
 
-Flask Journey
+<br><br>
 
-Learning Python web development with Flask, routes, and a local development server.
+<img src="assets/experience.png" width="100%" alt="03 — AI Solutions Developer internship at arsuno.ai, July–August 2026. Figma UI/UX prototypes, WordPress customization, deployment and testing across AWS, Azure and GCP, and exposure to RAG systems, chatbots and custom AI agents." />
 
-Student Information System
+<br><br>
 
-Assembly coursework using NASM, with a focus on loops, jumps, interrupts, and student-record operations.
+<img src="assets/next.png" width="100%" alt="Next chapter: Kotlin foundations, small Android apps, and better project documentation." />
 
-WordPress website
+<br>
 
-Building a website with tutorial guidance and learning how to manage its pages, content, and appearance.
-
-Figma design work
-
-Exploring interface layouts, visual hierarchy, and UI/UX prototyping across multiple designs.
-
-Technical toolkit
-
-Area
-
-Technologies & experience
-
-Programming
-
-C++, Python · NASM assembly basics
-
-Web development
-
-HTML, CSS, Flask, WordPress
-
-Databases
-
-SQL · Familiarity with MySQL and MongoDB
-
-Design
-
-Figma · Interface design and prototyping
-
-Cloud & containers
-
-AWS, Azure, GCP fundamentals · Docker knowledge · Basic Kubernetes familiarity
-
-Development tools
-
-Git, GitHub, VS Code, Android Studio
-
-Currently learning
-
-Kotlin and Android app development
-
-Experience
-
-AI Solutions Developer Intern · arsuno.ai
-July–August 2026
-
-During my internship, I gained practical exposure to:
-
-Design and web: Figma UI/UX prototypes and WordPress development/customization.
-
-Cloud platforms: application deployment and testing on AWS, Azure, and GCP.
-
-AI applications: retrieval-augmented generation (RAG), generative AI systems, Microsoft Bot Framework chatbots, and custom AI agents.
-
-What I’m learning next
-
-Build my Kotlin foundations and apply them to small Android apps.
-
-Strengthen my understanding of how application code connects to databases and cloud services.
-
-Document projects with clear setup instructions and explanations of what I learned.
-
-<div align="center">
-  <sub>Building my foundations, one project at a time.</sub><br>
-  <a href="https://github.com/usm4n-codes">github.com/usm4n-codes</a>
-</div>
+<p align="center"><a href="https://github.com/usm4n-codes">usm4n-codes</a> &nbsp; / &nbsp; Learning through practice.</p>
